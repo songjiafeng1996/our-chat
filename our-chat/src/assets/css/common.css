@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  
+  }
+  
+  html,body{
+    min-width: 1200px;
+  }
+  .fl {
+    float: left;
+  }
+  
+  .fr {
+    float: right;
+  }
+  
+  .banner-content {
+    width:1200px;
+    margin:0 auto;
+    min-width:1200px;
+  }
+  .clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+  }
+  
+  .clearfloat {
+    zoom: 1
+  }
+  
+  .flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  .flex-h-center{
+    display: flex;
+    align-items:center;
+  }
+  .flex-x-center{
+    display: flex;
+    justify-content: center;
+  }
+
+  
